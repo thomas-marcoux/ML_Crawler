@@ -13,6 +13,7 @@ from sklearn import metrics
 import matplotlib.pyplot as plt
 import time 
 
+# Gathers data if needed then splits it, builds a classifier and evaluates it
 if __name__ == "__main__":
     review_folder = "reviews"
     grid_parameters = {'vect__ngram_range':[(1, 1), (1, 2)],}
@@ -20,6 +21,7 @@ if __name__ == "__main__":
     max_df = 0.80
     c = 1000
     test_size = 0.20
+    # These two lines skipped if the dataset is up to date
     #print("Fetching reviews")
     #get_reviews(review_folder)
     print("Loading reviews")
