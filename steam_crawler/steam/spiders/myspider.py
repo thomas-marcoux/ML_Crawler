@@ -2,7 +2,7 @@
 """
 Created on Sun Nov 27 14:57:19 2016
 
-@author: Sorel
+@author: Thomas
 """
 
 import scrapy
